@@ -1,0 +1,17 @@
+glm_api_key.local
+.env
+*.glm_raw.txt
+
+__pycache__/
+*.py[cod]
+
+tools/
+output/
+res/
+cpp_editor/build_mingw3/
+cpp_editor/dist
+# Generated editor/build artifacts
+cpp_editor/build*/
+output/**/annotations_glm_preview.jpg
+imgui.ini
+annotation_editor_state.json
