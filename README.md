@@ -49,7 +49,7 @@ knowledge in `main.cpp`.
 ## Build and run on Windows
 
 ```powershell
-cd D:\auto_label\cpp_editor
+cd D:\MyEditor
 cmake -S . -B build_test
 cmake --build build_test --config Release -j 4
 .\dist\csd_editor.exe

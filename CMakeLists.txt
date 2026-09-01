@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(auto_label_imgui_editor LANGUAGES CXX)
+project(csd_ui_editor LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

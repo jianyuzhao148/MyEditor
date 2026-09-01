@@ -1,17 +1,27 @@
-glm_api_key.local
+# Local secrets
 .env
-*.glm_raw.txt
+*.local
+glm_api_key.local
 
+# Python cache / generated data
 __pycache__/
 *.py[cod]
+*.glm_raw.txt
 
-tools/
-output/
+# Local datasets, outputs and toolchains
 res/
-cpp_editor/build_mingw3/
-cpp_editor/dist
-# Generated editor/build artifacts
-cpp_editor/build*/
-output/**/annotations_glm_preview.jpg
+output/
+
+# App/editor local state
 imgui.ini
 annotation_editor_state.json
+*_editor_state.json
+
+# CMake / Visual Studio build artifacts
+.vs/
+.tmp*/
+build/
+build*/
+cmake-build-*/
+dist/
+CMakeUserPresets.json
